@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidade do aplicativo Site Seguro.">
+  <title>Política de privacidade — Site Seguro</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #17212b;
+      background: #f4f7f9;
+    }
+
+    body {
+      box-sizing: border-box;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      line-height: 1.65;
+    }
+
+    main {
+      padding: 32px;
+      border: 1px solid #e1e8ed;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 8px 28px rgb(23 33 43 / 6%);
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #126b57;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 16px 12px;
+      }
+
+      main {
+        padding: 24px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Política de privacidade</h1>
+
+      <p>O Site Seguro não exige cadastro ou login e não mantém servidores próprios para coletar ou armazenar seus dados.</p>
+
+      <p>As análises são iniciadas no seu telefone. Para executá-las, o domínio ou endereço informado é enviado diretamente aos serviços abaixo; esses serviços podem receber dados técnicos da conexão, como o endereço IP, conforme suas próprias políticas.</p>
+
+      <h2>Serviços utilizados</h2>
+      <ul>
+        <li>Site analisado: consulta de certificado HTTPS e redirecionamentos.</li>
+        <li>Registro.br RDAP (domínios .br) e RDAP.org (outros domínios): consulta da data de registro.</li>
+        <li>Google Public DNS: consulta de registros DNS/SPF.</li>
+        <li>Google Mobile Ads SDK: o app está configurado com anúncios de teste. O Google pode tratar dados técnicos e relacionados a anúncios conforme sua política de privacidade.</li>
+      </ul>
+
+      <h2>Armazenamento no aparelho</h2>
+      <p>O app guarda localmente até cinco domínios recentes para mostrar o histórico. Você pode apagá-los em “Limpar”. O histórico não é enviado para servidores do Site Seguro.</p>
+
+      <p>As práticas dos serviços externos são regidas pelas políticas de seus respectivos responsáveis.</p>
+    </article>
+  </main>
+</body>
+</html>
